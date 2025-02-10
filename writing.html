@@ -1,13 +1,17 @@
----
-layout: layout.liquid
-title: 11ty Boilerplate
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/styles/screen.css">
+</head>
 
-<header>
-    <h1>Polaroid Cloud</h1>
-</header>
+<body>
+    <header>
+        <h1>Polaroid Cloud</h1>
+    </header>
 
-<main>
     <section class="hero">
         <h2>FILM TO PHONE</h2>
     </section>
@@ -29,7 +33,7 @@ title: 11ty Boilerplate
     <section class="form">
         <h3>Be the first to know.</h3>
         <form action="#">
-            <input class="text" type="text" placeholder="Enter your email address to receive updates"> <input class="button" type="button" value="Keep in touch">
+            <input type="text" placeholder="Enter your email address to receive updates"> <input type="button" value="Keep in touch">
         </form>
     </section>
-</main>
+</body>
