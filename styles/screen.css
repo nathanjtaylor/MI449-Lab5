@@ -107,6 +107,11 @@ main {
 .form input.text {
     width: 650px;
 }
+.form input.text::placeholder {
+    color: var(--primary-text-color);
+    position: absolute;
+    left: 30px;
+}
 .form input.button {
     width: 250px;
     background-color: var(--accent-color);
